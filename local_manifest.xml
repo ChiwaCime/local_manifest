@@ -3,6 +3,8 @@
     <!-- Repositories -->
     <remote name="crdroid" fetch="https://github.com/crdroidandroid" />
     <remote name="LineageOS" fetch="https://github.com/LineageOS" />
+    <remote name="spak" fetch="https://github.com/spakkkk" />
+    <remote name="cime" fetch="https://github.com/ChiwaCime" />
     
     <!--Device Trees-->
     <project path="device/xiaomi/monet" name="ChiwaCime/android_device_xiaomi_monet" revision="main" remote="github" />
@@ -12,7 +14,7 @@
     <project path="kernel/xiaomi/sm7250" name="kernel_xiaomi_sm7250" revision="lineage-19.1"  remote="LineageOS" />
 
     <!-- Vendor folders -->
-    <project path="vendor/xiaomi/" name="android-vendor-xiaomi-sm7250" revision="12.1" remote="gitlab" />
+    <project path="vendor/xiaomi/" name="android-vendor-xiaomi-sm7250" revision="main" remote="cime" />
     
     <!-- Toolchain -->
     <project path="prebuilts/clang/host/linux-x86/clang-lolz" name="Jprimero15/lolz_clang" revision="main" remote="gitlab" clone-depth="1"/>
@@ -21,7 +23,7 @@
     <remove-project name="platform/external/erofs-utils" />
     <project path="external/erofs-utils" name="platform/external/erofs-utils" revision="master" remote="aosp" />
     <remove-project name="platform/system/extras" />
-    <project path="system/extras" name="/system_extras" revision="12.1" remote="github"/>
+    <project path="system/extras" name="mikairyuu/system_extras" revision="12.1" remote="github"/>
     <remove-project name="build" />
     <project path="build/make" name="build" revision="12.1" remote="github" >
         <copyfile src="core/root.mk" dest="Makefile" />
