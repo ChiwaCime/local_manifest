@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+    <!-- Repositories -->
+    <remote name="crdroid" fetch="https://github.com/crdroidandroid" />
+    <remote name="LineageOS" fetch="https://github.com/LineageOS" />
+    
     <!--Device Trees-->
-    <project path="device/xiaomi/vangogh" name="ikairyuu/android_device_xiaomi_monet-oss" revision="12.1" remote="github" />
-    <project path="device/xiaomi/sm7250-common" name="mikairyuu/android_device_xiaomi_sm7250-common" revision="12.1" remote="github" />
+    <project path="device/xiaomi/monet" name="ChiwaCime/android_device_xiaomi_monet" revision="main" remote="github" />
+    <project path="device/xiaomi/sm8250-common" name="android_device_xiaomi_sm8250-common" revision="lineage-19.1" remote="LineageOS" />
 
     <!--Kernel-->
-    <project path="kernel/xiaomi/sm7250" name="/kernel_xiaomi_sm7250" revision=""  remote="github" />
+    <project path="kernel/xiaomi/sm7250" name="kernel_xiaomi_sm7250" revision="lineage-19.1"  remote="LineageOS" />
 
     <!-- Vendor folders -->
-    <project path="vendor/xiaomi/" name="/android-vendor-xiaomi-sm7250" revision="12.1" remote="gitlab" />
+    <project path="vendor/xiaomi/" name="android-vendor-xiaomi-sm7250" revision="12.1" remote="gitlab" />
     
     <!-- Toolchain -->
     <project path="prebuilts/clang/host/linux-x86/clang-lolz" name="Jprimero15/lolz_clang" revision="main" remote="gitlab" clone-depth="1"/>
@@ -19,7 +23,7 @@
     <remove-project name="platform/system/extras" />
     <project path="system/extras" name="/system_extras" revision="12.1" remote="github"/>
     <remove-project name="build" />
-    <project path="build/make" name="mikairyuu/build" revision="snow" remote="github" >
+    <project path="build/make" name="build" revision="12.1" remote="github" >
         <copyfile src="core/root.mk" dest="Makefile" />
         <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
         <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
