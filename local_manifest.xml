@@ -5,35 +5,21 @@
     <remote name="LineageOS" fetch="https://github.com/LineageOS" />
     <remote name="spak" fetch="https://github.com/spakkkk" />
     <remote name="cime" fetch="https://github.com/ChiwaCime" />
+    <remote name="cime" fetch="https://gitlab.com/the-muppets/proprietary_vendor_xiaomi/" />
     
     <!--Device Trees-->
     <project path="device/xiaomi/monet" name="android_device_xiaomi_monet" revision="lineage-19.1" remote="cime" />
     <project path="device/xiaomi/sm8250-common" name="android_device_xiaomi_sm8250-common" revision="lineage-19.1" remote="LineageOS" />
 
     <!--Kernel-->
-    <project path="kernel/xiaomi/sm7250" name="kernel_xiaomi_sm7250" revision="lineage-19.1"  remote="LineageOS" />
+    <project path="kernel/xiaomi/sm8250" name="kernel_xiaomi_sm8250" revision="lineage-19.1"  remote="LineageOS" />
 
     <!-- Vendor folders -->
-    <project path="vendor/xiaomi/" name="the-muppets/proprietary_vendor_xiaomi/sm8250-common" revision="lineage-19.1" remote="gitlab" />
+    <project path="vendor/xiaomi/" name="sm8250-common" revision="lineage-19.1" remote="gitlab" />
+    <project path="vendor/xiaomi/monet" name="monet" revision="lineage-19.1" remote="gitlab" />
     
     <!-- Toolchain -->
     <project path="prebuilts/clang/host/linux-x86/clang-lolz" name="Jprimero15/lolz_clang" revision="main" remote="gitlab" clone-depth="1"/>
-
-    <!-- EROFS -->
-    <remove-project name="platform/external/erofs-utils" />
-    <project path="external/erofs-utils" name="platform/external/erofs-utils" revision="master" remote="aosp" />
-    <remove-project name="platform/system/extras" />
-    <project path="system/extras" name="mikairyuu/system_extras" revision="12.1" remote="github"/>
-    <remove-project name="build" />
-    <project path="build/make" name="build" revision="12.1" remote="github" >
-        <copyfile src="core/root.mk" dest="Makefile" />
-        <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
-        <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
-        <linkfile src="core" dest="build/core" />
-        <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
-        <linkfile src="target" dest="build/target" />
-        <linkfile src="tools" dest="build/tools" />
-    </project>
 </manifest>
 
 
