@@ -5,7 +5,7 @@
     <remote name="LineageOS" fetch="https://github.com/LineageOS" />
     <remote name="spak" fetch="https://github.com/spakkkk" />
     <remote name="cime" fetch="https://github.com/ChiwaCime" />
-    <remote name="cime" fetch="https://gitlab.com/the-muppets/proprietary_vendor_xiaomi/" />
+    <remote name="vendor" fetch="https://gitlab.com/the-muppets/proprietary_vendor_xiaomi/" />
     
     <!--Device Trees-->
     <project path="device/xiaomi/monet" name="android_device_xiaomi_monet" revision="lineage-19.1" remote="cime" />
@@ -15,8 +15,8 @@
     <project path="kernel/xiaomi/sm8250" name="kernel_xiaomi_sm8250" revision="lineage-19.1"  remote="LineageOS" />
 
     <!-- Vendor folders -->
-    <project path="vendor/xiaomi/sm8250-common" name="sm8250-common" revision="lineage-19.1" remote="gitlab" />
-    <project path="vendor/xiaomi/monet" name="monet" revision="lineage-19.1" remote="gitlab" />
+    <project path="vendor/xiaomi/sm8250-common" name="sm8250-common" revision="lineage-19.1" remote="vendor" />
+    <project path="vendor/xiaomi/monet" name="monet" revision="lineage-19.1" remote="vendor" />
     
     <!-- Toolchain -->
     <project path="prebuilts/clang/host/linux-x86/clang-lolz" name="Jprimero15/lolz_clang" revision="main" remote="gitlab" clone-depth="1"/>
