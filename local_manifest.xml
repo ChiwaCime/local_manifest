@@ -4,23 +4,22 @@
     <remote name="LineageOS" fetch="https://github.com/LineageOS" revision="lineage-19.1"/>
     <remote name="spak" fetch="https://github.com/spakkkk" revision="skizo-xz"/>
     <remote name="cime" fetch="https://github.com/ChiwaCime"/>
-    <remote name="gitlab" fetch="https://gitlab.com/>
+    <remote name="gitlab" fetch="https://gitlab.com/"/>
     
     <!--Device Trees-->
     <project path="device/xiaomi/monet" name="android_device_xiaomi_monet" revision="lineage-19.1" remote="cime" />
     <project path="device/xiaomi/sm8250-common" name="android_device_xiaomi_sm8250-common" remote="LineageOS" />
-
+    
     <!--Kernel-->
     <project path="kernel/xiaomi/sm7250" name="kernel_xiaomi_sm7250" remote="spak" />
     <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="LineageOS" />
-
+    
     <!-- Vendor folders -->
     <project path="vendor/xiaomi/" name="mikairyuu/android-vendor-xiaomi-sm7250" revision="snow" remote="gitlab" />
     
     <!-- Toolchain -->
     <project path="prebuilts/clang/host/linux-x86/clang-lolz" name="Jprimero15/lolz_clang" revision="main" remote="gitlab" clone-depth="1"/>
 </manifest>
-
 
 
 
