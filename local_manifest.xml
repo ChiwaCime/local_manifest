@@ -6,6 +6,7 @@
     <remote name="cime" fetch="https://github.com/ChiwaCime"/>
     <remote name="vendor" fetch="https://gitlab.com/the-muppets/proprietary_vendor_xiaomi/" revision="lineage-19.1"/>
     <remote name="los-caf-8250" fetch="https://github.com" revision="lineage-19.1-caf-sm8250"/>
+    <remote name="gitlab" fetch="https://gitlab.com"/>
     
     <!--Device Trees-->
     <project path="device/xiaomi/monet" name="android_device_xiaomi_monet" revision="lineage-19.1" remote="cime" />
@@ -14,9 +15,6 @@
     <!--Kernel-->
     <project path="kernel/xiaomi/sm7250" name="kernel_xiaomi_sm7250" remote="spak" />
     <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="LineageOS" />
-	
-    <project path="hardware/qcom-caf/sm8250/audio" name="LineageOS/android_hardware_qcom_audio" remote="los-caf-8250" />
-    <project path="hardware/qcom-caf/sm8250/display" name="LineageOS/android_hardware_qcom_display" remote="los-caf-8250" />
 
     <!-- Vendor folders -->
     <project path="vendor/xiaomi/sm8250-common" name="sm8250-common"  remote="vendor" />
