@@ -19,7 +19,8 @@
     <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="LineageOS" />
 
     <!-- Vendor folders -->
-    <project path="vendor/xiaomi" name="android_vendor_xiaomi_vangogh" remote="maluueugl" revision="twelve" />
+    <project path="vendor/xiaomi/vangogh" name="android_vendor_xiaomi_vangogh/vangogh" remote="maluueugl" revision="twelve" />
+    <project path="vendor/xiaomi/sm8250-common" name="sm8250-common" remote="maluueugl" revision="twelve" />
 </manifest>
 
 
