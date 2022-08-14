@@ -20,7 +20,7 @@
 
     <!-- Vendor folders -->
     <project path="vendor/xiaomi/vangogh" name="android_vendor_xiaomi_vangogh/vangogh" remote="maluueugl" revision="twelve" />
-    <project path="vendor/xiaomi/sm8250-common" name="sm8250-common" remote="maluueugl" revision="twelve" />
+    <project path="vendor/xiaomi/sm8250-common" name="sm8250-common" remote="vendor" />
 </manifest>
 
 
