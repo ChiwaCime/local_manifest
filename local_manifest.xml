@@ -2,7 +2,7 @@
 <manifest>
     <!-- Repositories -->
     <remote name="LineageOS" fetch="https://github.com/LineageOS" revision="lineage-19.1"/>
-    <remote name="spak" fetch="https://github.com/spakkkk" revision="skizo-xz"/>
+    <remote name="spak" fetch="https://github.com/spakkkk" revision="skizo-x"/>
     <remote name="cime" fetch="https://github.com/ChiwaCime"/>
     <remote name="vendor" fetch="https://gitlab.com/the-muppets/proprietary_vendor_xiaomi/" revision="lineage-19.1"/>
     <remote name="los-caf-8250" fetch="https://github.com" revision="lineage-19.1-caf-sm8250"/>
