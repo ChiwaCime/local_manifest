@@ -10,7 +10,7 @@
     <remote name="evox" fetch="https://github.com/Evolution-X" revision="tiramisu"/>
     
     <!--Device Trees-->
-    <project path="device/xiaomi/vangogh" name="android_device_xiaomi_vangogh" revision="lineage-19.1" remote="cime" />
+    <project path="device/xiaomi/vangogh" name="android_device_xiaomi_vangogh" revision="tiramisu" remote="cime" />
     <project path="device/xiaomi/sm8250-common" name="android_device_xiaomi_sm8250-common" remote="Pixel-Devices" revision="thirteen"/>
 
     <!--Kernel-->
