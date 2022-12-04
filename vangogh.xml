@@ -10,7 +10,7 @@
     <remote name="tiramisu" fetch="https://github.com/mikairyuu/" revision="tiramisu"/>
     
     <!--Device Trees-->
-    <project path="device/xiaomi/vangogh" name="android_device_xiaomi_vangogh" revision="tiramisu" remote="cime" />
+    <project path="device/xiaomi/vangogh" name="android_device_xiaomi_vangogh" revision="TAP" remote="cime" />
     <project path="device/xiaomi/sm7250-common" name="android_device_xiaomi_sm7250-common" remote="tiramisu"/>
 
     <!--Kernel-->
