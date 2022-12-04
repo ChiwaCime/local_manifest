@@ -2,11 +2,12 @@
 <manifest>
     <!-- Repositories -->
     <remote name="sm7250" fetch="https://github.com/xiaomi-sm7250-devs/" revision="lineage-19.1"/>
-    <remote name="Pixel-Devices" fetch="https://github.com/PixelExperience-Devices" revision="thirteen"/>
+    <remote name="Pixel-Devices" fetch="https://github.com/PixelExperience-Devices" revision="twelve"/>
+    <remote name="LineageOS" fetch="https://github.com/LineageOS/" revision="lineage-20"/>
     <remote name="Pixel-Blobs" fetch="https://gitlab.pixelexperience.org/android/vendor-blobs/" revision="thirteen"/>
     <remote name="cime" fetch="https://github.com/ChiwaCime"/>
     <remote name="vendor" fetch="https://gitlab.com/the-muppets/proprietary_vendor_xiaomi/" revision="lineage-19.1"/>
-    <remote name="evox" fetch="https://github.com/Evolution-X" revision="tiramisu"/>
+    <remote name="toolchain" fetch="https://gitlab.com/Jprimero15/" revision="main"/>
     <remote name="tiramisu" fetch="https://github.com/mikairyuu/" revision="tiramisu"/>
     
     <!--Device Trees-->
@@ -15,6 +16,7 @@
 
     <!--Kernel-->
     <project path="kernel/xiaomi/sm7250" name="kernel_xiaomi_sm7250" remote="Pixel-Devices"/>
+    <project path="hardware/xiaomi/" name="android_hardware_xiaomi" remote="LineageOS"/>
 
     <!-- Vendor folders -->
     <project path="vendor/xiaomi/vangogh" name="vendor_xiaomi_vangogh" remote="Pixel-Blobs"/>
