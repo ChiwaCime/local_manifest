@@ -10,13 +10,13 @@
     
     <!--Device Trees-->
     <project path="device/xiaomi/vangogh" name="android_device_xiaomi_vangogh" revision="TAP" remote="cime" />
-    <project path="device/xiaomi/sm7250-common" name="android_device_xiaomi_sm7250-common" revision="TAP" remote="cime"/>
+    <project path="device/xiaomi/sm7250-common" name="android_device_xiaomi_sm7250-common" revision="TDA" remote="cime"/>
 
     <!--Kernel-->
     <project path="kernel/xiaomi/sm7250" name="kernel_xiaomi_sm7250" remote="Pixel-Devices"/>
     
     <!--hardware-->
-    <project path="hardware/xiaomi/" name="android_hardware_xiaomi" remote="cime" revision="lineage-20"/>
+    <project path="hardware/xiaomi/" name="android_hardware_xiaomi" remote="cime" revision="TDA"/>
     <project path="vendor/xiaomi-firmware/" name="alecchangod/vendor_xiaomi-firmware" revision="main" remote="gitlab" />
 
     <!-- Vendor folders -->
@@ -24,5 +24,6 @@
     
     <!-- Toolchain -->
     <project path="prebuilts/clang/host/linux-x86/clang-lolz" name="Jprimero15/lolz_clang" revision="main" remote="gitlab" clone-depth="1"/>
+    <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="Amritorock/clang-r450784d" remote="gitlab" revision="master" clone-depth="1" />
     <project path="prebuilts/clang/host/linux-x86/clang-vangogh" name="maluueu/clang-vangogh" remote="gitlab" revision="master" clone-depth="1" />
 </manifest>
