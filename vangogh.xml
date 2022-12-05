@@ -6,7 +6,7 @@
     <remote name="cime" fetch="https://github.com/ChiwaCime"/>
     <remote name="tiramisu" fetch="https://github.com/mikairyuu/"/>
     <remote name="gitlab" fetch="https://gitlab.com/"/>
-    <remote name="Pixel-Devices" fetch="https://gitlab.pixelexperience.org/android/vendor-blobs/" revision="thirteen"/>
+    <remote name="Pixel-Blobs" fetch="https://gitlab.pixelexperience.org/android/vendor-blobs/" revision="thirteen"/>
     
     <!--Device Trees-->
     <project path="device/xiaomi/vangogh" name="android_device_xiaomi_vangogh" revision="TAP" remote="cime" />
@@ -21,7 +21,7 @@
 
     <!-- Vendor folders -->
     <project path="vendor/xiaomi/" name="android_vendor_xiaomi_sm7250" remote="tiramisu" revision="tiramisu"/>
-    <project path="vendor/xiaomi-firmware/vangogh/" name="vendor_xiaomi-firmware/vangogh" remote="tiramisu" revision="tiramisu"/>
+    <project path="vendor/xiaomi-firmware/vangogh/" name="vendor_xiaomi-firmware/vangogh" remote="Pixel-Blobs" revision="master" clone-depth="1"/>
     
     <!-- Toolchain -->
     <project path="prebuilts/clang/host/linux-x86/clang-lolz" name="Jprimero15/lolz_clang" revision="main" remote="gitlab" clone-depth="1"/>
