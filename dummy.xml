@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- Repositories -->
+    <remote name="sm7250" fetch="https://github.com/xiaomi-sm7250-devs/" revision="lineage-19.1"/>
+    <remote name="Pixel-Devices" fetch="https://github.com/PixelExperience-Devices" revision="twelve"/>
+    <remote name="LineageOS" fetch="https://github.com/LineageOS/"/>
+    <remote name="Pixel-Blobs" fetch="https://gitlab.pixelexperience.org/android/vendor-blobs/" revision="thirteen"/>
+    <remote name="cime" fetch="https://github.com/ChiwaCime"/>
+    <remote name="vendor" fetch="https://gitlab.com/the-muppets/proprietary_vendor_xiaomi/" revision="lineage-19.1"/>
+</manifest>
+
+
+
+
