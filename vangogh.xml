@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remove-project name="hardware_qcom_audio" />
     <!-- Repositories -->
     <remote name="Pixel-Devices" fetch="https://github.com/PixelExperience-Devices" revision="twelve"/>
     <remote name="LineageOS" fetch="https://github.com/LineageOS/"/>
