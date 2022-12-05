@@ -21,7 +21,6 @@
 
     <!-- Vendor folders -->
     <project path="vendor/xiaomi/" name="android_vendor_xiaomi_sm7250" remote="tiramisu" revision="tiramisu"/>
-    <project path="vendor/xiaomi-firmware/vangogh/" name="vendor_xiaomi-firmware/vangogh" remote="Pixel-Blobs" revision="master" clone-depth="1"/>
     
     <!-- Toolchain -->
     <project path="prebuilts/clang/host/linux-x86/clang-lolz" name="Jprimero15/lolz_clang" revision="main" remote="gitlab" clone-depth="1"/>
