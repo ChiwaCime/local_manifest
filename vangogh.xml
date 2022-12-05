@@ -4,8 +4,8 @@
     <remote name="Pixel-Devices" fetch="https://github.com/PixelExperience-Devices" revision="twelve"/>
     <remote name="LineageOS" fetch="https://github.com/LineageOS/"/>
     <remote name="cime" fetch="https://github.com/ChiwaCime"/>
-    <remote name="maluueugl" fetch="https://gitlab.com/maluueu"/>
     <remote name="tiramisu" fetch="https://github.com/mikairyuu/"/>
+    <remote name="gitlab" fetch="https://gitlab.com/"/>
     
     <!--Device Trees-->
     <project path="device/xiaomi/vangogh" name="android_device_xiaomi_vangogh" revision="TAP" remote="cime" />
@@ -22,5 +22,5 @@
     
     <!-- Toolchain -->
     <project path="prebuilts/clang/host/linux-x86/clang-lolz" name="Jprimero15/lolz_clang" revision="main" remote="gitlab" clone-depth="1"/>
-    <project path="prebuilts/clang/host/linux-x86/clang-vangogh" name="clang-vangogh" remote="maluueugl" revision="master" clone-depth="1" />
+    <project path="prebuilts/clang/host/linux-x86/clang-vangogh" name="maluueu/clang-vangogh" remote="gitlab" revision="master" clone-depth="1" />
 </manifest>
