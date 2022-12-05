@@ -19,7 +19,6 @@
     <!-- Vendor folders -->
     <project path="vendor/xiaomi/vangogh" name="vendor_xiaomi_vangogh" remote="Pixel-Blobs"/>
     <project path="vendor/xiaomi/sm7250-common" name="vendor_xiaomi_sm7250-common" remote="Pixel-Blobs"/>
-    <project path="vendor/lineage" name="android_vendor_lineage" remote="LineageOS" revision="lineage-20.0"/>
 </manifest>
 
 
