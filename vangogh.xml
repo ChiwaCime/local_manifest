@@ -16,16 +16,11 @@
     
     <!--hardware-->
     <project path="hardware/xiaomi/" name="android_hardware_xiaomi" remote="cime" revision="lineage-20"/>
-    <project path="hardware/qcom-caf/sm8250/audio/" name="android_hardware_qcom_audio" revision="lineage-20.0-caf-sm8250" remote="LineageOS" /> 
 
     <!-- Vendor folders -->
     <project path="vendor/xiaomi/" name="android_vendor_xiaomi_sm7250" remote="tiramisu" revision="tiramisu"/>
     
     <!-- Toolchain -->
     <project path="prebuilts/clang/host/linux-x86/clang-lolz" name="Jprimero15/lolz_clang" revision="main" remote="gitlab" clone-depth="1"/>
-    <project path="prebuilts/clang/host/linux-x86/clang-vangogh" name="clang-vangogh" remote="gitlab" revision="master" clone-depth="1" />
+    <project path="prebuilts/clang/host/linux-x86/clang-vangogh" name="clang-vangogh" remote="maluueugl" revision="master" clone-depth="1" />
 </manifest>
-
-
-
-
