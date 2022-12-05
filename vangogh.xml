@@ -1,24 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+    <remove-project name="hardware_qcom_audio" />
     <!-- Repositories -->
-    <remote name="sm7250" fetch="https://github.com/xiaomi-sm7250-devs/" revision="lineage-19.1"/>
     <remote name="Pixel-Devices" fetch="https://github.com/PixelExperience-Devices" revision="twelve"/>
     <remote name="LineageOS" fetch="https://github.com/LineageOS/"/>
-    <remote name="Pixel-Blobs" fetch="https://gitlab.pixelexperience.org/android/vendor-blobs/" revision="thirteen"/>
     <remote name="cime" fetch="https://github.com/ChiwaCime"/>
-    <remote name="vendor" fetch="https://gitlab.com/the-muppets/proprietary_vendor_xiaomi/" revision="lineage-19.1"/>
+    <remote name="maluueugl" fetch="https://gitlab.com/maluueu"/>
+    <remote name="tiramisu" fetch="https://github.com/mikairyuu/"/>
     
     <!--Device Trees-->
     <project path="device/xiaomi/vangogh" name="android_device_xiaomi_vangogh" revision="TAP" remote="cime" />
-    <project path="device/xiaomi/sm7250-common" name="android_device_xiaomi_sm7250-common" remote="sm7250"/>
+    <project path="device/xiaomi/sm7250-common" name="android_device_xiaomi_sm7250-common" revision="TAP" remote="cime"/>
 
     <!--Kernel-->
     <project path="kernel/xiaomi/sm7250" name="kernel_xiaomi_sm7250" remote="Pixel-Devices"/>
-    <project path="hardware/xiaomi/" name="android_hardware_xiaomi" remote="LineageOS" revision="lineage-20"/>
+    
+    <!--hardware-->
+    <project path="hardware/xiaomi/" name="android_hardware_xiaomi" remote="cime" revision="lineage-20"/>
+    <project path="hardware/qcom-caf/sm8250/audio/" name="android_hardware_qcom_audio" revision="lineage-20.0-caf-sm8250" remote="LineageOS" /> 
 
     <!-- Vendor folders -->
-    <project path="vendor/xiaomi/vangogh" name="vendor_xiaomi_vangogh" remote="Pixel-Blobs"/>
-    <project path="vendor/xiaomi/sm7250-common" name="vendor_xiaomi_sm7250-common" remote="Pixel-Blobs"/>
+    <project path="vendor/xiaomi/" name="android_vendor_xiaomi_sm7250" remote="tiramisu" revision="tiramisu"/>
+    
+    <!-- Toolchain -->
+    <project path="prebuilts/clang/host/linux-x86/clang-lolz" name="Jprimero15/lolz_clang" revision="main" remote="gitlab" clone-depth="1"/>
+    <project path="prebuilts/clang/host/linux-x86/clang-vangogh" name="clang-vangogh" remote="gitlab" revision="master" clone-depth="1" />
 </manifest>
 
 
