@@ -6,7 +6,7 @@
     <remote name="LineageOS" fetch="https://github.com/LineageOS/"/>
     <remote name="cime" fetch="https://github.com/ChiwaCime"/>
     <remote name="tiramisu" fetch="https://github.com/mikairyuu/"/>
-    <remote name="gitlab" fetch="https://gitlab.com/"/>
+    <!-- <remote name="gitlab" fetch="https://gitlab.com/"/> -->
     <remote name="Pixel-Blobs" fetch="https://gitlab.pixelexperience.org/android/vendor-blobs/" revision="thirteen"/>
     
     <!--Device Trees-->
