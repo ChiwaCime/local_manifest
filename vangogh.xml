@@ -2,6 +2,7 @@
 <manifest>
     <!-- Repositories -->
     <remote name="Pixel-Devices" fetch="https://github.com/PixelExperience-Devices" revision="twelve"/>
+    <remote name="EvoX" fetch="https://github.com/Evolution-X/" revision="tiramisu"/>
     <remote name="LineageOS" fetch="https://github.com/LineageOS/"/>
     <remote name="cime" fetch="https://github.com/ChiwaCime"/>
     <remote name="tiramisu" fetch="https://github.com/mikairyuu/"/>
@@ -9,14 +10,14 @@
     <remote name="Pixel-Blobs" fetch="https://gitlab.pixelexperience.org/android/vendor-blobs/" revision="thirteen"/>
     
     <!--Device Trees-->
-    <project path="device/xiaomi/vangogh" name="android_device_xiaomi_vangogh" revision="TAP" remote="cime" />
-    <project path="device/xiaomi/sm7250-common" name="android_device_xiaomi_sm7250-common" revision="TDA" remote="cime"/>
+    <project path="device/xiaomi/vangogh" name="android_device_xiaomi_vangogh" revision="tiramisu" remote="cime" />
+    <project path="device/xiaomi/sm7250-common" name="android_device_xiaomi_sm7250-common" revision="tiramisu" remote="cime"/>
 
     <!--Kernel-->
     <project path="kernel/xiaomi/sm7250" name="kernel_xiaomi_sm7250" remote="Pixel-Devices"/>
     
     <!--hardware-->
-    <project path="hardware/xiaomi/" name="android_hardware_xiaomi" remote="cime" revision="TDA"/>
+    <project path="hardware/xiaomi/" name="android_hardware_xiaomi" remote="EvoX"/>
     <project path="vendor/xiaomi-firmware/" name="alecchangod/vendor_xiaomi-firmware" revision="main" remote="gitlab" />
 
     <!-- Vendor folders -->
