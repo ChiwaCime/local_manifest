@@ -15,10 +15,6 @@
 
     <!--Kernel-->
     <project path="kernel/xiaomi/sm7250" name="kernel_xiaomi_sm7250" remote="Pixel-Devices"/>
-    
-    <!--hardware-->
-    <project path="hardware/xiaomi/" name="android_hardware_xiaomi" remote="EvoX"/>
-    <project path="vendor/xiaomi-firmware/" name="alecchangod/vendor_xiaomi-firmware" revision="main" remote="gitlab" />
 
     <!-- Vendor folders -->
     <project path="vendor/xiaomi/" name="android_vendor_xiaomi_sm7250" remote="tiramisu" revision="tiramisu"/>
