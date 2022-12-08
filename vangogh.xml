@@ -11,7 +11,7 @@
     
     <!--Device Trees-->
     <project path="device/xiaomi/vangogh" name="android_device_xiaomi_vangogh" revision="tiramisu" remote="cime" />
-    <project path="device/xiaomi/sm7250-common" name="device_xiaomi_sm7250-common" revision="tiramisu" remote="cime"/>
+    <project path="device/xiaomi/sm7250-common" name="device_xiaomi_sm7250-common" revision="tiramisu" remote="tiramisu"/>
 
     <!--Kernel-->
     <project path="kernel/xiaomi/sm7250" name="kernel_xiaomi_sm7250" remote="Pixel-Devices"/>
