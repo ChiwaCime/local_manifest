@@ -22,6 +22,7 @@
     
     <!-- Toolchain -->
     <project path="prebuilts/clang/host/linux-x86/clang-lolz" name="Jprimero15/lolz_clang" revision="main" remote="gitlab" clone-depth="1"/>
+    <project path="prebuilts/clang/host/linux-x86/clang-trb" name="varunhardgamer/trb_clang" revision="17" remote="gitlab" />
 </manifest>
 
 
